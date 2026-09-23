@@ -15,7 +15,8 @@
 
 ## 文件
 
-- `release/Smart-Launcher-6.6-021-cleaned-pinyin-search.apk`：可安装 APK
+- `release/Smart-Launcher-6.6-021-cleaned-pinyin-search.apk.b64.part-*`：APK 的 GitHub 分片（GitHub 接口不支持本次上传的大型二进制直传）
+- `release/reassemble-apk.ps1`：Windows PowerShell 重组脚本
 - `source/`：离线拼音匹配、DEX 补丁、构建和验证源码
 - `拼音搜索增强版说明.md`：安装与安全说明
 - `build-result.json`、`verification-result.json`：构建和静态校验结果
@@ -31,5 +32,6 @@
 
 APK SHA-256：`20296dca705e6c1a0f9a15732a589fc7a2f33e26f3dc8becdcac6eb844722eee`
 
-构建通过 79 项匹配断言、80,000 次并发匹配压力测试，以及 ZIP/DEX/签名/对齐检查。尚未在实体手机上启动测试。
+下载所有 `release/Smart-Launcher-6.6-021-cleaned-pinyin-search.apk.b64.part-*` 文件和 `reassemble-apk.ps1` 到同一目录后运行脚本，即可还原 APK；还原后请核对上面的 SHA-256。
 
+构建通过 79 项匹配断言、80,000 次并发匹配压力测试，以及 ZIP/DEX/签名/对齐检查。尚未在实体手机上启动测试。
