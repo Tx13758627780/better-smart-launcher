@@ -1,0 +1,72 @@
+{
+  "sha256": "20296dca705e6c1a0f9a15732a589fc7a2f33e26f3dc8becdcac6eb844722eee",
+  "zip_integrity": "passed",
+  "dex_checksums": "passed",
+  "manifest_byte_identical": true,
+  "same_certificate": true,
+  "added_permissions": [],
+  "classes_and_method_checks": {
+    "classes.dex": {
+      "original_classes": 12383,
+      "final_classes": 12383,
+      "original_methods_compared": 52736
+    },
+    "classes2.dex": {
+      "original_classes": 5740,
+      "final_classes": 5745,
+      "original_methods_compared": 25754
+    }
+  },
+  "changed_original_code": [
+    {
+      "class": "Lf13;",
+      "method": [
+        "invokeSuspend",
+        "(Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "differences": [
+        {
+          "index": 136,
+          "old": [
+            "invoke-virtual",
+            "v10, v11, v12, v3, Lpl7;->g(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)I"
+          ],
+          "new": [
+            "invoke-static",
+            "v10, v11, v12, v3, LLocalPinyin;->score(Lpl7; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)I"
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Lqw2;",
+      "method": [
+        "invokeSuspend",
+        "(Ljava/lang/Object;)Ljava/lang/Object;"
+      ],
+      "differences": [
+        {
+          "index": 168,
+          "old": [
+            "invoke-virtual",
+            "v7, v10, v8, v12, Lpl7;->g(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)I"
+          ],
+          "new": [
+            "invoke-static",
+            "v7, v10, v8, v12, LLocalPinyin;->score(Lpl7; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)I"
+          ]
+        }
+      ]
+    }
+  ],
+  "new_classes": [
+    "LLocalPinyin$1;",
+    "LLocalPinyin$NameForms;",
+    "LLocalPinyin;",
+    "LLocalPinyinData$Table;",
+    "LLocalPinyinData;"
+  ],
+  "known_injected_code_absent": true,
+  "new_code_has_no_network_loader_or_thread_creation": true,
+  "device_tested": false
+}
