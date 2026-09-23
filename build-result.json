@@ -1,0 +1,15 @@
+{
+  "base_sha256": "ee8482d8c8ec8d22e08461c22645566ac919a5246d9c91e45d8348c8257ff762",
+  "file": "Smart-Launcher-6.6-021-cleaned-pinyin-search.apk",
+  "sha256": "20296dca705e6c1a0f9a15732a589fc7a2f33e26f3dc8becdcac6eb844722eee",
+  "size": 21812023,
+  "new_permissions": [],
+  "same_signing_certificate": true,
+  "tests": "PASS: 79 assertions; 80000 concurrent lookups in 51.2943 ms; cache=1024\n",
+  "patch_summary": "Patched exactly 2 local-app search calls in [Lf13;, Lqw2;]; added [LLocalPinyinData$Table;, LLocalPinyin;, LLocalPinyin$1;, LLocalPinyin$NameForms;, LLocalPinyinData;]\n",
+  "removed_stale_optimization_profiles": [
+    "assets/dexopt/baseline.prof",
+    "assets/dexopt/baseline.profm"
+  ],
+  "runtime_device_test": false
+}
